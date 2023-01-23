@@ -12,17 +12,13 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/templatemo.css">
     <link rel="stylesheet" href="assets/css/custom.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-    <!--
-    
-TemplateMo 559 Zay Shop
-
-https://templatemo.com/tm-559-zay-shop
-
--->
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
 </head>
 
 <body>
@@ -53,7 +49,7 @@ https://templatemo.com/tm-559-zay-shop
         <div class="container d-flex justify-content-between align-items-center">
 
             <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
-                <img src="https://lustrous-medovik-f6449b.netlify.app/assets/img/logo.png" alt="" width="100px">
+                <img src="assets/img/logo.png" alt="" width="180px">
             </a>
 
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,22 +63,27 @@ https://templatemo.com/tm-559-zay-shop
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" href="">About</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Categories
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item text-dark" href="#">Action</a></li>
-                                <li><a class="dropdown-item text-dark" href="#">Another action</a></li>
+                                <li><a class="dropdown-item text-dark" href="category.html">Productivity & Organization</a></li>
+                                <li><a class="dropdown-item text-dark" href="category.html">Data Management & Security</a></li>
+                                <li><a class="dropdown-item text-dark" href="category.html">Graphic Design & Multimedia</a></li>
+                                <li><a class="dropdown-item text-dark" href="category.html">Programming & Development</a></li>
+                                <li><a class="dropdown-item text-dark" href="category.html">Word Processing & Spreadsheet</a></li>
+                                <li><a class="dropdown-item text-dark" href="category.html">Business & Finance</a></li>
+                                <li><a class="dropdown-item text-dark" href="category.html">Health & Education</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="shop.html">Program</a>
+                            <a class="nav-link" href="">Program</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -143,10 +144,12 @@ https://templatemo.com/tm-559-zay-shop
             <div class="carousel-item active">
                 <div class="container">
                     <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last" data-aos="fade-left"
+                        data-aos-duration="2000">
                             <img class="img-fluid item-bounce" src="./assets/img/banner_img_01.jpg" alt="">
                         </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                        <div class="col-lg-6 mb-0 d-flex align-items-center" data-aos="fade-right"
+                        data-aos-duration="2000">
                             <div class="text-align-left align-self-center">
                                 <h1 class="h1 text-success"><b>Lorem</b> Ipsum</h1>
                                 <h3 class="h2">Lorem ipsum dolor sit amet.</h3>
@@ -161,10 +164,12 @@ https://templatemo.com/tm-559-zay-shop
             <div class="carousel-item">
                 <div class="container">
                     <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last" data-aos="fade-left"
+                        data-aos-duration="2000">
                             <img class="img-fluid item-bounce" src="./assets/img/banner_img_02.jpg" alt="">
                         </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                        <div class="col-lg-6 mb-0 d-flex align-items-center" data-aos="fade-right"
+                        data-aos-duration="2000">
                             <div class="text-align-left">
                                 <h1 class="h1 text-success"><b>Lorem</b> Ipsum</h1>
                                 <h3 class="h2">Lorem ipsum dolor sit amet.</h3>
@@ -179,10 +184,12 @@ https://templatemo.com/tm-559-zay-shop
             <div class="carousel-item">
                 <div class="container">
                     <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last" data-aos="fade-left"
+                        data-aos-duration="2000">
                             <img class="img-fluid item-bounce" src="./assets/img/banner_img_03.jpg" alt="">
                         </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                        <div class="col-lg-6 mb-0 d-flex align-items-center" data-aos="fade-right"
+                        data-aos-duration="2000">
                             <div class="text-align-left">
                                 <h1 class="h1 text-success"><b>Lorem</b> Ipsum</h1>
                                 <h3 class="h2">Lorem ipsum dolor sit amet.</h3>
@@ -204,6 +211,24 @@ https://templatemo.com/tm-559-zay-shop
     </div>
     <!-- End Banner Hero -->
 
+    <div class="container">
+        <div class="row p-5">
+            <div class="mx-auto col-lg-6" data-aos="fade-right"
+            data-aos-duration="2000">
+                <img class="img-fluid item-bounce" src="./assets/img/banner_img_02.jpg" alt="">
+            </div>
+            <div class="col-lg-6 mb-0 d-flex align-items-center" data-aos="fade-left"
+            data-aos-duration="2000">
+                <div class="text-align-left">
+                    <h1 class="h1 text-success"><b>About</b> us</h1>
+                    <h3 class="h2">Lorem ipsum dolor sit amet.</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus consequuntur doloribus delectus dolorum non minus qui harum eum nemo. Eaque praesentium id sunt, eligendi ea quod temporibus commodi aspernatur minima.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Start Categories of The Month -->
     <section class="container py-5">
@@ -216,20 +241,23 @@ https://templatemo.com/tm-559-zay-shop
             </div>
         </div>
         <div class="row">
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/banner_img_01.jpg" class="rounded-circle img-fluid border only-border-glow move-up"></a>
+            <div class="col-12 col-md-4 p-5 mt-3" data-aos="fade-up"
+            data-aos-duration="2000">
+                <a href="category.html"><img src="./assets/img/banner_img_01.jpg" class="rounded-circle img-fluid border only-border-glow move-up"></a>
                 <h5 class="text-center mt-3 mb-3">Category One</h5>
-                <p class="text-center"><a class="btn btn-success">Learn More</a></p>
+                <p class="text-center"><a href="category.html" class="btn btn-success">Learn More</a></p>
             </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/category_img_02.jpg" class="rounded-circle img-fluid border only-border-glow move-up"></a>
+            <div class="col-12 col-md-4 p-5 mt-3" data-aos="fade-up"
+            data-aos-duration="2000">
+                <a href="category.html"><img src="./assets/img/category_img_02.jpg" class="rounded-circle img-fluid border only-border-glow move-up"></a>
                 <h2 class="h5 text-center mt-3 mb-3">Category Two</h2>
-                <p class="text-center"><a class="btn btn-success">Learn More</a></p>
+                <p class="text-center"><a href="category.html" class="btn btn-success">Learn More</a></p>
             </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/category_img_03.jpg" class="rounded-circle img-fluid border only-border-glow move-up"></a>
+            <div class="col-12 col-md-4 p-5 mt-3" data-aos="fade-up"
+            data-aos-duration="2000">
+                <a href="category.html"><img src="./assets/img/category_img_03.jpg" class="rounded-circle img-fluid border only-border-glow move-up"></a>
                 <h2 class="h5 text-center mt-3 mb-3">Category Three</h2>
-                <p class="text-center"><a class="btn btn-success">Learn More</a></p>
+                <p class="text-center"><a href="category.html" class="btn btn-success">Learn More</a></p>
             </div>
         </div>
     </section>
@@ -248,9 +276,10 @@ https://templatemo.com/tm-559-zay-shop
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-4 mb-4">
+                <div class="col-12 col-md-4 mb-4" data-aos="fade-up"
+                data-aos-duration="2000">
                     <div class="card h-100 bg-border-glow move-up">
-                        <a href="shop-single.html">
+                        <a href="">
                             <img src="./assets/img/category_img_01.jpg" class="card-img-top" alt="..." style="border-radius: 10px;">
                         </a>
                         <div class="card-body">
@@ -264,7 +293,7 @@ https://templatemo.com/tm-559-zay-shop
                                 </li>
                                 <li class="text-muted text-right">$240.00</li>
                             </ul> -->
-                            <a href="shop-single.html" class="h2 text-decoration-none text-white">Lorem, ipsum dolor.</a>
+                            <a href="" class="h2 text-decoration-none text-white">Lorem, ipsum dolor.</a>
                             <p class="card-text text-white">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in culpa qui officia deserunt.
                             </p>
@@ -272,9 +301,10 @@ https://templatemo.com/tm-559-zay-shop
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 mb-4">
+                <div class="col-12 col-md-4 mb-4" data-aos="fade-up"
+                data-aos-duration="2000">
                     <div class="card h-100 bg-border-glow move-up">
-                        <a href="shop-single.html">
+                        <a href="">
                             <img src="./assets/img/category_img_02.jpg" class="card-img-top" alt="..." style="border-radius: 10px;">
                         </a>
                         <div class="card-body">
@@ -288,7 +318,7 @@ https://templatemo.com/tm-559-zay-shop
                                 </li>
                                 <li class="text-muted text-right">$480.00</li>
                             </ul> -->
-                            <a href="shop-single.html" class="h2 text-decoration-none text-white">Lorem, ipsum dolor.</a>
+                            <a href="" class="h2 text-decoration-none text-white">Lorem, ipsum dolor.</a>
                             <p class="card-text text-white">
                                 Aenean gravida dignissim finibus. Nullam ipsum diam, posuere vitae pharetra sed, commodo ullamcorper.
                             </p>
@@ -296,9 +326,10 @@ https://templatemo.com/tm-559-zay-shop
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 mb-4">
+                <div class="col-12 col-md-4 mb-4" data-aos="fade-up"
+                data-aos-duration="2000">
                     <div class="card h-100 bg-border-glow move-up">
-                        <a href="shop-single.html">
+                        <a href="">
                             <img src="./assets/img/category_img_03.jpg" class="card-img-top" alt="..." style="border-radius: 10px;">
                         </a>
                         <div class="card-body">
@@ -312,7 +343,7 @@ https://templatemo.com/tm-559-zay-shop
                                 </li>
                                 <li class="text-muted text-right">$360.00</li>
                             </ul> -->
-                            <a href="shop-single.html" class="h2 text-decoration-none text-white">Lorem, ipsum dolor.</a>
+                            <a href="" class="h2 text-decoration-none text-white">Lorem, ipsum dolor.</a>
                             <p class="card-text text-white">
                                 Curabitur ac mi sit amet diam luctus porta. Phasellus pulvinar sagittis diam, et scelerisque ipsum lobortis nec.
                             </p>
@@ -333,7 +364,7 @@ https://templatemo.com/tm-559-zay-shop
 
                 <div class="col-md-4 pt-5">
                     <img src="" alt="">
-                    <img src="https://lustrous-medovik-f6449b.netlify.app/assets/img/logo.png" alt="" width="80px">
+                    <img src="assets/img/logo.png" alt="" width="120px">
                     <!-- <h2 class="h2 text-success border-bottom pb-3 border-light logo">Zay Shop</h2> -->
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
@@ -355,7 +386,6 @@ https://templatemo.com/tm-559-zay-shop
                     <ul class="list-unstyled text-light footer-link-list">
                         <li><a class="text-decoration-none" href="#">Home</a></li>
                         <li><a class="text-decoration-none" href="#">About Us</a></li>
-                        <li><a class="text-decoration-none" href="#">Shop Locations</a></li>
                         <li><a class="text-decoration-none" href="#">FAQs</a></li>
                         <li><a class="text-decoration-none" href="#">Contact</a></li>
                     </ul>
@@ -408,7 +438,44 @@ https://templatemo.com/tm-559-zay-shop
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/templatemo.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- End Script -->
+    <script>
+        AOS.init();
+    </script><!-- Start Slider Script -->
+    <script src="assets/js/slick.min.js"></script>
+    <script>
+        $('#carousel-related-product').slick({
+            infinite: true,
+            arrows: false,
+            slidesToShow: 4,
+            slidesToScroll: 3,
+            dots: true,
+            responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 3
+                    }
+                }
+            ]
+        });
+    </script>
+    <!-- End Slider Script -->
 </body>
 
 </html>
