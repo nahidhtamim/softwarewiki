@@ -168,23 +168,23 @@ div {
 
 /* Nav */
 
-#templatemo_nav_top {
+#softwarewiki_nav_top {
     min-height: 40px;
 }
 
-#templatemo_nav_top * {
+#softwarewiki_nav_top * {
     font-size: .9em !important;
 }
 
-#templatemo_main_nav a {
+#softwarewiki_main_nav a {
     color: #fff;
 }
 
-#templatemo_main_nav a:hover {
+#softwarewiki_main_nav a:hover {
     color: #188DFF;
 }
 
-#templatemo_main_nav .navbar .nav-icon {
+#softwarewiki_main_nav .navbar .nav-icon {
     margin-right: 20px;
 }
 
@@ -198,11 +198,11 @@ div {
 
 /* Accordion */
 
-.templatemo-accordion a {
+.softwarewiki-accordion a {
     color: #000;
 }
 
-.templatemo-accordion a:hover {
+.softwarewiki-accordion a:hover {
     color: #333d4a;
 }
 
@@ -395,7 +395,7 @@ div {
 /*// Medium devices (tablets, 768px and up)*/
 
 @media (min-width: 768px) {
-    #templatemo_main_nav .navbar-nav {
+    #softwarewiki_main_nav .navbar-nav {
         max-width: 450px;
     }
 }
@@ -404,7 +404,7 @@ div {
 /* Large devices (desktops, 992px and up)*/
 
 @media (min-width: 992px) {
-    #templatemo_main_nav .navbar-nav {
+    #softwarewiki_main_nav .navbar-nav {
         max-width: 550px;
     }
     #template-mo-zay-hero-carousel .carousel-item {
