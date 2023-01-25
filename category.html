@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="assets/css/custom.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Load fonts style after rendering the layout styles -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <!-- Slick -->
     <link rel="stylesheet" type="text/css" href="assets/css/slick.min.css">
@@ -28,15 +29,20 @@
             <div class="w-100 d-flex justify-content-between">
                 <div>
                     <i class="fa fa-envelope mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@company.com">info@softwarewiki.com</a>
+                    <a class="navbar-sm-brand text-light text-decoration-none"
+                        href="mailto:info@company.com">info@softwarewiki.com</a>
                     <i class="fa fa-phone mx-2"></i>
                     <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
                 </div>
                 <div>
-                    <a class="text-light" href="https://fb.com/softwarewiki" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
+                    <a class="text-light" href="https://fb.com/softwarewiki" target="_blank" rel="sponsored"><i
+                            class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i
+                            class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://twitter.com/" target="_blank"><i
+                            class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i
+                            class="fab fa-linkedin fa-sm fa-fw"></i></a>
                 </div>
             </div>
         </div>
@@ -46,38 +52,120 @@
 
     <!-- Header -->
     <nav class="navbar navbar-expand-lg navbar-dark shadow" style="background: #01213f;">
-        <div class="container d-flex justify-content-between align-items-center">
-
-            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
                 <img src="assets/img/logo.png" alt="" width="180px">
             </a>
-
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#softwarewiki_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#softwarewiki_main_nav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="softwarewiki_main_nav">
+            <div class="collapse navbar-collapse align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between"
+                id="softwarewiki_main_nav">
                 <div class="flex-fill">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Categories
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item text-dark" href="category.html">Productivity & Organization</a></li>
-                                <li><a class="dropdown-item text-dark" href="category.html">Data Management & Security</a></li>
-                                <li><a class="dropdown-item text-dark" href="category.html">Graphic Design & Multimedia</a></li>
-                                <li><a class="dropdown-item text-dark" href="category.html">Programming & Development</a></li>
-                                <li><a class="dropdown-item text-dark" href="category.html">Word Processing & Spreadsheet</a></li>
-                                <li><a class="dropdown-item text-dark" href="category.html">Business & Finance</a></li>
-                                <li><a class="dropdown-item text-dark" href="category.html">Health & Education</a></li>
-                            </ul>
+                        <li class="nav-item dropdown dropdown-mega position-static">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                data-bs-auto-close="outside">Categories</a>
+                            <div class="dropdown-menu shadow">
+                                <div class="mega-content px-4">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-3 py-4">
+                                                <h5><a class="dropdown-item text-primary"
+                                                        href="category.html">Productivity
+                                                        & Organization</a></h5>
+                                                <div class="list-group">
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 01</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 02</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 03</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-3 py-4">
+                                                <h5><a class="dropdown-item text-primary" href="category.html">Data
+                                                        Management & Security</a></h5>
+                                                <div class="list-group">
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 01</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 02</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 03</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-3 py-4">
+                                                <h5><a class="dropdown-item text-primary" href="category.html">Graphic
+                                                        Design & Multimedia</a></h5>
+                                                <div class="list-group">
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 01</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 02</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 03</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-3 py-4">
+                                                <h5><a class="dropdown-item text-primary"
+                                                        href="category.html">Programming & Development</a></h5>
+                                                <div class="list-group">
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 01</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 02</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 03</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-3 py-4">
+                                                <h5><a class="dropdown-item text-primary" href="category.html">Word
+                                                        Processing & Spreadsheet</a></h5>
+                                                <div class="list-group">
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 01</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 02</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 03</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-3 py-4">
+                                                <h5><a class="dropdown-item text-primary" href="category.html">Business
+                                                        & Finance</a></h5>
+                                                <div class="list-group">
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 01</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 02</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 03</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-3 py-4">
+                                                <h5><a class="dropdown-item text-primary" href="category.html">Health &
+                                                        Education</a></h5>
+                                                <div class="list-group">
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 01</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 02</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 03</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="program.html">Program</a>
@@ -87,7 +175,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="navbar align-self-center d-flex">
+                <div class="navbar ms-auto align-self-center d-flex">
                     <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
                         <div class="input-group">
                             <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
@@ -96,26 +184,22 @@
                             </div>
                         </div>
                     </div>
-                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#softwarewiki_search">
+                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal"
+                        data-bs-target="#softwarewiki_search">
                         <i class="fa fa-fw fa-search text-white mr-2"></i>
                     </a>
-                    <!-- <a class="nav-icon position-relative text-decoration-none" href="#">
-                        <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
-                    </a> -->
-                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                    <a class="nav-icon position-relative text-decoration-none p-2" href="#">
                         <i class="fa fa-fw fa-user text-white mr-3"></i>
-                        <!-- <span class="rounded-pill px-3 bg-light text-dark ml-2">Login</span> -->
                     </a>
                 </div>
             </div>
-
         </div>
     </nav>
     <!-- Close Header -->
 
     <!-- Modal -->
-    <div class="modal fade bg-white" id="softwarewiki_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade bg-white" id="softwarewiki_search" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="w-100 pt-1 mb-5 text-right">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -144,10 +228,16 @@
             <div class="row">
                 <div class="col-lg-12 mt-5">
                     <div class="">
-                        <div class="card-body" data-aos="fade-in-down"
-                        data-aos-duration="2000">
-                            <!-- <h1 class="h2 text-center">Graphic Design</h1> -->
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, sunt. Minima consequatur fugiat autem alias aut nemo, placeat totam eligendi! Quibusdam ex nam voluptatum eum corrupti molestiae ut omnis exercitationem, tempore enim id totam assumenda iusto laboriosam et! Aliquid facere molestiae quibusdam esse quam dignissimos inventore laudantium et possimus debitis voluptatum laborum doloribus in, dolorum, repellat consectetur eveniet omnis quo molestias sunt, laboriosam reprehenderit obcaecati consequuntur. Hic earum temporibus eligendi nisi, fuga quibusdam ex iure ut alias sint sapiente libero, provident maxime magni dolorem itaque cumque. Magnam facere recusandae consectetur qui pariatur! Amet temporibus labore ex asperiores iure ad magnam?</p>
+                        <div class="card-body" data-aos="fade-in-down" data-aos-duration="2000">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, sunt. Minima consequatur
+                                fugiat autem alias aut nemo, placeat totam eligendi! Quibusdam ex nam voluptatum eum
+                                corrupti molestiae ut omnis exercitationem, tempore enim id totam assumenda iusto
+                                laboriosam et! Aliquid facere molestiae quibusdam esse quam dignissimos inventore
+                                laudantium et possimus debitis voluptatum laborum doloribus in, dolorum, repellat
+                                consectetur eveniet omnis quo molestias sunt, laboriosam reprehenderit obcaecati
+                                consequuntur. Hic earum temporibus eligendi nisi, fuga quibusdam ex iure ut alias sint
+                                sapiente libero, provident maxime magni dolorem itaque cumque. Magnam facere recusandae
+                                consectetur qui pariatur! Amet temporibus labore ex asperiores iure ad magnam?</p>
                             <br>
                             <br>
                             <div class="">
@@ -155,82 +245,103 @@
                                     <h4>Sub Categories</h4>
                                 </div>
                                 <div class="row">
-                                    <div class="col-lg-4" data-aos="fade-up"
-                                    data-aos-duration="2000">
+                                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="2000">
                                         <div class="product-wap card bg-border-glow rounded-0 move-up">
                                             <div class="card rounded-0">
-                                                <img class="card-img rounded-0 img-fluid" src="assets/img/category_img_01.jpg">
-                                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                                <img class="card-img rounded-0 img-fluid"
+                                                    src="assets/img/category_img_01.jpg">
+                                                <div
+                                                    class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                                     <ul class="list-unstyled">
-                                                        <li><a class="btn btn-success text-white mt-2" href="sub-category.html"><i class="far fa-eye"></i></a></li>
+                                                        <li><a class="btn btn-success text-white mt-2"
+                                                                href="sub-category.html"><i class="far fa-eye"></i></a>
+                                                        </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="card-body text-center">
-                                                <a href="category.html" class="h3 text-decoration-none text-white">Sub Category One</a>
+                                                <a href="category.html" class="h3 text-decoration-none text-white">Sub
+                                                    Category One</a>
                                                 <div class="row mt-3">
                                                     <div class="col-4">
-                                                        <img class="card-img rounded-0 img-fluid" src="assets/img/photoshop.jpg">
+                                                        <img class="card-img rounded-0 img-fluid"
+                                                            src="assets/img/photoshop.jpg">
                                                     </div>
                                                     <div class="col-4">
-                                                        <img class="card-img rounded-0 img-fluid" src="assets/img/illustrator.png">
+                                                        <img class="card-img rounded-0 img-fluid"
+                                                            src="assets/img/illustrator.png">
                                                     </div>
                                                     <div class="col-4">
-                                                        <img class="card-img rounded-0 img-fluid" src="assets/img/office.png">
+                                                        <img class="card-img rounded-0 img-fluid"
+                                                            src="assets/img/office.png">
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4" data-aos="fade-up"
-                                    data-aos-duration="2000">
+                                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="2000">
                                         <div class="product-wap card bg-border-glow rounded-0 move-up">
                                             <div class="card rounded-0">
-                                                <img class="card-img rounded-0 img-fluid" src="assets/img/category_img_02.jpg">
-                                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                                <img class="card-img rounded-0 img-fluid"
+                                                    src="assets/img/category_img_02.jpg">
+                                                <div
+                                                    class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                                     <ul class="list-unstyled">
-                                                        <li><a class="btn btn-success text-white mt-2" href="sub-category.html"><i class="far fa-eye"></i></a></li>
+                                                        <li><a class="btn btn-success text-white mt-2"
+                                                                href="sub-category.html"><i class="far fa-eye"></i></a>
+                                                        </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="card-body text-center">
-                                                <a href="category.html" class="h3 text-decoration-none text-white">Sub Category One</a>
+                                                <a href="category.html" class="h3 text-decoration-none text-white">Sub
+                                                    Category One</a>
                                                 <div class="row mt-3">
                                                     <div class="col-4">
-                                                        <img class="card-img rounded-0 img-fluid" src="assets/img/photoshop.jpg">
+                                                        <img class="card-img rounded-0 img-fluid"
+                                                            src="assets/img/photoshop.jpg">
                                                     </div>
                                                     <div class="col-4">
-                                                        <img class="card-img rounded-0 img-fluid" src="assets/img/illustrator.png">
+                                                        <img class="card-img rounded-0 img-fluid"
+                                                            src="assets/img/illustrator.png">
                                                     </div>
                                                     <div class="col-4">
-                                                        <img class="card-img rounded-0 img-fluid" src="assets/img/office.png">
+                                                        <img class="card-img rounded-0 img-fluid"
+                                                            src="assets/img/office.png">
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4" data-aos="fade-up"
-                                    data-aos-duration="2000">
+                                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="2000">
                                         <div class="product-wap card bg-border-glow rounded-0 move-up">
                                             <div class="card rounded-0">
-                                                <img class="card-img rounded-0 img-fluid" src="assets/img/category_img_03.jpg">
-                                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                                <img class="card-img rounded-0 img-fluid"
+                                                    src="assets/img/category_img_03.jpg">
+                                                <div
+                                                    class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                                     <ul class="list-unstyled">
-                                                        <li><a class="btn btn-success text-white mt-2" href="sub-category.html"><i class="far fa-eye"></i></a></li>
+                                                        <li><a class="btn btn-success text-white mt-2"
+                                                                href="sub-category.html"><i class="far fa-eye"></i></a>
+                                                        </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="card-body text-center">
-                                                <a href="category.html" class="h3 text-decoration-none text-white">Sub Category One</a>
+                                                <a href="category.html" class="h3 text-decoration-none text-white">Sub
+                                                    Category One</a>
                                                 <div class="row mt-3">
                                                     <div class="col-4">
-                                                        <img class="card-img rounded-0 img-fluid" src="assets/img/photoshop.jpg">
+                                                        <img class="card-img rounded-0 img-fluid"
+                                                            src="assets/img/photoshop.jpg">
                                                     </div>
                                                     <div class="col-4">
-                                                        <img class="card-img rounded-0 img-fluid" src="assets/img/illustrator.png">
+                                                        <img class="card-img rounded-0 img-fluid"
+                                                            src="assets/img/illustrator.png">
                                                     </div>
                                                     <div class="col-4">
-                                                        <img class="card-img rounded-0 img-fluid" src="assets/img/office.png">
+                                                        <img class="card-img rounded-0 img-fluid"
+                                                            src="assets/img/office.png">
                                                     </div>
                                                 </div>
                                             </div>
@@ -246,13 +357,6 @@
     </section>
     <!-- Close Content -->
 
-    <!-- Start Article -->
-    <section class="py-5">
-        
-    </section>
-    <!-- End Article -->
-
-
     <!-- Start Footer -->
     <footer class="" id="tempaltemo_footer" style="background: #01213f;">
         <div class="container">
@@ -261,7 +365,6 @@
                 <div class="col-md-4 pt-5">
                     <img src="" alt="">
                     <img src="assets/img/logo.png" alt="" width="120px">
-                    <!-- <h2 class="h2 text-success border-bottom pb-3 border-light logo">Zay Shop</h2> -->
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
                             <i class="fas fa-map-marker-alt fa-fw"></i> 123 Consectetur at ligula 10660
@@ -272,7 +375,8 @@
                         </li>
                         <li>
                             <i class="fa fa-envelope fa-fw"></i>
-                            <a class="text-decoration-none" href="mailto:info@softwarewiki.com">info@softwarewiki.com</a>
+                            <a class="text-decoration-none"
+                                href="mailto:info@softwarewiki.com">info@softwarewiki.com</a>
                         </li>
                     </ul>
                 </div>
@@ -290,21 +394,26 @@
                     <h2 class="h2 text-light border-bottom pb-3 border-light">Social Media</h2>
                     <label class="sr-only" for="subscribeEmail">Email address</label>
                     <div class="input-group mb-2">
-                        <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
+                        <input type="text" class="form-control bg-dark border-light" id="subscribeEmail"
+                            placeholder="Email address">
                         <div class="input-group-text btn-success text-light">Subscribe</div>
                     </div>
                     <ul class="list-inline text-left footer-icons">
                         <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                            <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i
+                                    class="fab fa-facebook-f fa-lg fa-fw"></i></a>
                         </li>
                         <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                            <a class="text-light text-decoration-none" target="_blank"
+                                href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
                         </li>
                         <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i
+                                    class="fab fa-twitter fa-lg fa-fw"></i></a>
                         </li>
                         <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                            <a class="text-light text-decoration-none" target="_blank"
+                                href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
                         </li>
                     </ul>
 

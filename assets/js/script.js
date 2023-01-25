@@ -1,11 +1,3 @@
-/*
-
-softwarewiki 559 Zay Shop
-
-https://softwarewiki.com/tm-559-zay-shop
-
-*/
-
 'use strict';
 $(document).ready(function() {
 

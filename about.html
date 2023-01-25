@@ -52,47 +52,120 @@
 
     <!-- Header -->
     <nav class="navbar navbar-expand-lg navbar-dark shadow" style="background: #01213f;">
-        <div class="container d-flex justify-content-between align-items-center">
-
-            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
                 <img src="assets/img/logo.png" alt="" width="180px">
             </a>
-
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
-                data-bs-target="#softwarewiki_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#softwarewiki_main_nav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between"
+            <div class="collapse navbar-collapse align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between"
                 id="softwarewiki_main_nav">
                 <div class="flex-fill">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Categories
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item text-dark" href="category.html">Productivity &
-                                        Organization</a></li>
-                                <li><a class="dropdown-item text-dark" href="category.html">Data Management &
-                                        Security</a></li>
-                                <li><a class="dropdown-item text-dark" href="category.html">Graphic Design &
-                                        Multimedia</a></li>
-                                <li><a class="dropdown-item text-dark" href="category.html">Programming &
-                                        Development</a></li>
-                                <li><a class="dropdown-item text-dark" href="category.html">Word Processing &
-                                        Spreadsheet</a></li>
-                                <li><a class="dropdown-item text-dark" href="category.html">Business & Finance</a></li>
-                                <li><a class="dropdown-item text-dark" href="category.html">Health & Education</a></li>
-                            </ul>
+                        <li class="nav-item dropdown dropdown-mega position-static">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                data-bs-auto-close="outside">Categories</a>
+                            <div class="dropdown-menu shadow">
+                                <div class="mega-content px-4">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-3 py-4">
+                                                <h5><a class="dropdown-item text-primary"
+                                                        href="category.html">Productivity
+                                                        & Organization</a></h5>
+                                                <div class="list-group">
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 01</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 02</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 03</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-3 py-4">
+                                                <h5><a class="dropdown-item text-primary" href="category.html">Data
+                                                        Management & Security</a></h5>
+                                                <div class="list-group">
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 01</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 02</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 03</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-3 py-4">
+                                                <h5><a class="dropdown-item text-primary" href="category.html">Graphic
+                                                        Design & Multimedia</a></h5>
+                                                <div class="list-group">
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 01</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 02</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 03</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-3 py-4">
+                                                <h5><a class="dropdown-item text-primary"
+                                                        href="category.html">Programming & Development</a></h5>
+                                                <div class="list-group">
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 01</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 02</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 03</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-3 py-4">
+                                                <h5><a class="dropdown-item text-primary" href="category.html">Word
+                                                        Processing & Spreadsheet</a></h5>
+                                                <div class="list-group">
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 01</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 02</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 03</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-3 py-4">
+                                                <h5><a class="dropdown-item text-primary" href="category.html">Business
+                                                        & Finance</a></h5>
+                                                <div class="list-group">
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 01</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 02</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 03</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-3 py-4">
+                                                <h5><a class="dropdown-item text-primary" href="category.html">Health &
+                                                        Education</a></h5>
+                                                <div class="list-group">
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 01</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 02</a>
+                                                    <a class="list-group-item text-dark" href="sub-category.html">Sub
+                                                        Category 03</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="program.html">Program</a>
@@ -102,7 +175,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="navbar align-self-center d-flex">
+                <div class="navbar ms-auto align-self-center d-flex">
                     <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
                         <div class="input-group">
                             <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
@@ -115,17 +188,11 @@
                         data-bs-target="#softwarewiki_search">
                         <i class="fa fa-fw fa-search text-white mr-2"></i>
                     </a>
-                    <!-- <a class="nav-icon position-relative text-decoration-none" href="#">
-                        <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
-                    </a> -->
-                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                    <a class="nav-icon position-relative text-decoration-none p-2" href="#">
                         <i class="fa fa-fw fa-user text-white mr-3"></i>
-                        <!-- <span class="rounded-pill px-3 bg-light text-dark ml-2">Login</span> -->
                     </a>
                 </div>
             </div>
-
         </div>
     </nav>
     <!-- Close Header -->
@@ -187,7 +254,7 @@
                     <h2 class="h5 mt-4 text-center">Quality</h2>
                 </div>
             </div>
-            
+
             <div class="col-md-6 col-lg-4 pb-5">
                 <div class="h-100 py-5 services-icon-wap shadow">
                     <div class="h1 text-success text-center"><i class="fa fa-percent"></i></div>
@@ -213,7 +280,6 @@
                 <div class="col-md-4 pt-5">
                     <img src="" alt="">
                     <img src="assets/img/logo.png" alt="" width="120px">
-                    <!-- <h2 class="h2 text-success border-bottom pb-3 border-light logo">Zay Shop</h2> -->
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
                             <i class="fas fa-map-marker-alt fa-fw"></i> 123 Consectetur at ligula 10660

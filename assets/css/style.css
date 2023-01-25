@@ -188,10 +188,41 @@ div {
     margin-right: 20px;
 }
 
+.mega-content h5 a{
+    text-align: center;
+    background-color: #01213F;
+    color: #efefef !important;
+    padding: 5px 0px !important;
+    border-bottom: 2px solid #01213F;
+    border-radius: 5px;
+}
+
+.mega-content h5 a:hover{
+    background-color: #efefef;
+    color: #01213F !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    border-radius: 5px;
+}
+
+.mega-content .list-group a{
+    background-color: #bfc1c2;
+    border: none;
+    color: #01213F !important;
+    padding: 5px 5px !important;
+    margin-top: 2px;
+}
+
+.mega-content .list-group a:hover{
+    background-color: #01213F;
+    color: #efefef !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
 
 /* Hero Carousel */
 
-#template-mo-zay-hero-carousel {
+#software-wiki-hero-carousel {
     background: #efefef !important;
 }
 
@@ -282,13 +313,13 @@ div {
 
 /* Carousel Hero */
 
-#template-mo-zay-hero-carousel .carousel-indicators li {
+#software-wiki-hero-carousel .carousel-indicators li {
     margin-top: -50px;
     background-color: #188DFF;
 }
 
-#template-mo-zay-hero-carousel .carousel-control-next i,
-#template-mo-zay-hero-carousel .carousel-control-prev i {
+#software-wiki-hero-carousel .carousel-control-next i,
+#software-wiki-hero-carousel .carousel-control-prev i {
     color: #188DFF !important;
     font-size: 2.8em !important;
 }
@@ -407,7 +438,7 @@ div {
     #softwarewiki_main_nav .navbar-nav {
         max-width: 550px;
     }
-    #template-mo-zay-hero-carousel .carousel-item {
+    #software-wiki-hero-carousel .carousel-item {
         min-height: 30rem !important;
     }
     .product-wap .h3,
